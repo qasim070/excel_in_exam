@@ -1,0 +1,103 @@
+.tm-head{
+    color: #004494;
+}
+input.tm-chkbox {
+    position: relative;
+    cursor: pointer;
+}
+input.tm-chkbox:checked:after {
+    content: "";
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    border-color: #004494;
+    background-color: #003cd6;
+    top: -1px;
+    bottom: 0px;
+    right: 0px;
+    left: -1px;
+}
+input.tm-chkbox:after {
+    content: "";
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    border: 1px solid #003cd6;
+    border-radius: 5px;
+    background-color: #fff;
+    top: -1px;
+    bottom: 0px;
+    right: 0px;
+    left: -1px;
+}
+.filt-inner span.tm-head{
+    font-size: 14px;
+}
+.topic{
+    font-size: 16px;
+    font-weight: 600;
+}
+button.tm-sm-btn-active{
+    background-color: #004494;
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 0px 8px;
+}
+button.tm-sm-btn{
+    border: 1px solid #004494;
+    color: #004494;
+    background-color: #fff;
+    padding: 0px 8px;
+}
+.thm-gradient{
+    background: linear-gradient(180deg, rgb(104 162 219) 0%, rgb(33 65 171) 41%);
+}
+.quest-card{
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) -2px 3px 9px;
+}
+.ans-card{
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.quest-card .card-header , .ans-card .card-header{
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    font-weight: 700;
+    font-size: 18px;
+}
+.ans-card textarea{
+    width: 100%;
+    border-radius: 20px;
+    background-color: #edebff;
+    border: none;
+    
+}
+.question-row .card-body p{
+    font-weight: 600;
+    color: #2054db;
+    word-spacing: 5px;
+}
+.btn-grad{
+    background: linear-gradient(180deg, rgb(104 162 219) 0%, rgb(33 65 171) 41%);
+    color: #fff;
+    font-size: 16px;
+    color: #fff;
+    padding: 1% 10%;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    font-weight: 600;
+}
+.pdf-btns button {
+    padding: 1.3% 14%;
+}
+
+@media only screen and (max-width:768px){
+    .ans-card{
+        margin-top: 30px;
+    }
+    .worksheet-filters button{
+        margin-top: 10px;
+    }
+}
