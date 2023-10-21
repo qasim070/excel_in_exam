@@ -93,6 +93,19 @@ button.tm-sm-btn{
     padding: 1.3% 14%;
 }
 
+.hero-section {
+    position: relative;
+    background-image: url('img/bg-sat.jpg');
+    background-size: cover;
+    overflow: hidden;
+    min-height:250px;
+}
+.hero-section__content {
+    padding: 10px 96px;
+    color:#fff;
+}
+
+
 @media only screen and (max-width:768px){
     .ans-card{
         margin-top: 30px;
