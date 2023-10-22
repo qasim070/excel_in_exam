@@ -78,6 +78,15 @@ button.tm-sm-btn{
     color: #2054db;
     word-spacing: 5px;
 }
+.dropdowns-topic div.drp-down{
+    background: linear-gradient(180deg, rgb(104 162 219) 0%, rgb(33 65 171) 41%);
+    color: #fff;
+    font-weight: 600;
+}
+.dropdowns-topic div.drp-down a:hover{
+    background: linear-gradient(210deg, rgb(104 162 219) 0%, rgb(33 65 171) 49%);
+    opacity: 0.8;
+}
 .btn-grad{
     background: linear-gradient(180deg, rgb(104 162 219) 0%, rgb(33 65 171) 41%);
     color: #fff;
@@ -114,5 +123,17 @@ ul.sat_cat {
     }
     .worksheet-filters button{
         margin-top: 10px;
+    }
+
+    .hero-section__content h1{
+        font-size: 45px;
+    }
+}
+@media only screen and (max-width:480px){
+    .hero-section__content h1{
+        font-size: 30px;
+    }
+    .hero-section__content {
+        padding: 0px;
     }
 }
